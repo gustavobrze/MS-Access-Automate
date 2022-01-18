@@ -25,4 +25,3 @@ def new_access(sapid, name, copy_id, table):
                 cursor.executemany('INSERT INTO ' + table + ' VALUES(?,?,?,?,?,?,?,?,?,?)', (new_access))
 
         cursor.commit()
-__name__
